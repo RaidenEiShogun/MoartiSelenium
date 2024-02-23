@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: mariaabusaidhtl
+      POSTGRES_PASSWORD: cKPShCJD0Oy7
+      POSTGRES_DB: moartiDatabase
+    ports:
+      - "5432:5432"
